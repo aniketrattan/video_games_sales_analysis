@@ -24,7 +24,7 @@ From the report and dataset inspection:
 
 The analysis pipeline aggregates game entries across platforms to create a cleaned dataset of unique titles used for modeling.
 
-## Analysis Workflow (from report)
+## Analysis Workflow
 
 1. Data cleaning and transformation
 - Aggregated duplicate game titles released across multiple platforms.
@@ -59,10 +59,6 @@ Classification tree vs KNN:
 - Sales-related variables are highly right-skewed and benefit from log transformation.
 - Genre, platform, and regional sales patterns are meaningful predictors of global performance.
 - Among compared classification approaches, the classification tree is highlighted as the most reliable tradeoff between performance and interpretability in this project.
-
-## Notes on Reproducibility
-
-The PDF includes R code snippets and outputs, but this repository currently does not include a standalone `.R` script or notebook. To fully reproduce the report end-to-end, an analysis script would need to be added.
 
 ## Author
 
